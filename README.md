@@ -9,3 +9,4 @@
 # Next I use my "scaler" and "fit_transform" method on this "columns" """sc.fit_transform(df[col_to_scale])""" and save it as """df[col_to_scale]"""
 # I check "Imbalance Ratio" of my "Exited" "column", so I use "value_counts" on "Exited" and save it as "class_distribution"
 # I get value (0) and (1) which belong to "column" "Exited" and save it as "imbalance_ratio" """class_distribution[0] / class_distribution[1]"""
+# Then I print "Imbalance Ratio" rounding to 1 decimal place """print('Imbalance Ratio:', np.round(imbalance_ratio, 1))"""
