@@ -11,3 +11,4 @@
 # I get value (0) and (1) which belong to "column" "Exited" and save it as "imbalance_ratio" """class_distribution[0] / class_distribution[1]"""
 # Then I print "Imbalance Ratio" rounding to 1 decimal place """print('Imbalance Ratio:', np.round(imbalance_ratio, 1))"""
 # Now when I have "Imbalance Ratio" I also check numbers of my "Exited" "columns" """count_class_0, count_class_1 = df.Exited.value_counts()"""
+# I save my (2) classes as "df_class_0" and "df_class_1"  """df[df['Exited']==0] | df[df['Exited']==1]"""
