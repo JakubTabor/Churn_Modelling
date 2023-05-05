@@ -6,3 +6,4 @@
 # I use method "get_dummies" on my "column" """df = pd.get_dummies(data=df, columns=['Geography'])"""
 # Then I need to "scale" my "columns" with big "values", so I import "MinMaxScaler"
 # Now I prepare my "columns to scale" """col_to_scale = ['Balance', 'EstimatedSalary', 'CreditScore', 'Age', 'Tenure', 'NumOfProducts']"""
+# Next I use my "scaler" and "fit_transform" method on this "columns" """sc.fit_transform(df[col_to_scale])""" and save it as """df[col_to_scale]"""
