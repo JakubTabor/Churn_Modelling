@@ -15,3 +15,4 @@
 # And I check if there is any (0) values """df.isnull().sum().sum()"""
 # Now I use "pd.concat" to unite my two classes """pd.concat([df_class_0.sample(count_class_1), df_class_1], axis=0)""" and I save it as "df_test_under"
 # Then I check "value number" of my "df_test_under" """df_test_under.Exited.value_counts()"""
+# I prepare "X" as data without "Exited" column """df.drop('Exited', axis='columns')""" and "y" as "Exited" """y = df['Exited']"""
