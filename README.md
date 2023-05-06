@@ -20,3 +20,4 @@
 # Now I can create and supplement my model, so I import "tensorflow", "keras" and create "keras.Sequential"
 # First "layers" have (26) neurons and "input_shape=(12,)" because i have (12) columns in my data, the best "activation" is "relu", so I use it
 # """keras.layers.Dense(26, input_shape=(12,), activation='relu')""" I also drop half of my neurons after every run, to deel with overfit
+# My hidden layer have (15) neurons and also "activation "relu" I use "Dropout" to drop neurons """keras.layers.Dropout(0.5)"""
