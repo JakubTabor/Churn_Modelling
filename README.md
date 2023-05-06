@@ -22,3 +22,4 @@
 # """keras.layers.Dense(26, input_shape=(12,), activation='relu')""" I also drop half of my neurons after every run, to deel with overfit
 # My hidden layer have (15) neurons and also "activation "relu" I use "Dropout" to drop neurons """keras.layers.Dropout(0.5)"""
 # And the last must have (1) output neuron and in that case the best "activation" is "sigmoid" """keras.layers.Dense(1, activation='sigmoid')"""
+# Then I gonna "compile" my "model" with the best "optimizer" "adam", I have "binary" output, so I use as loss "binary_crossentropy"
