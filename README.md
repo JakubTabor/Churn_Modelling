@@ -18,3 +18,4 @@
 # I prepare "X" as data without "Exited" column """df.drop('Exited', axis='columns')""" and "y" as "Exited" """y = df['Exited']"""
 # And get "train" and "test" set using "train_test_split" and I check their "shape" "X_train.shape" "X_test.shape"
 # Now I can create and supplement my model, so I import "tensorflow", "keras" and create "keras.Sequential"
+# First "layers" have (26) neurons and "input_shape=(12,)" because i have (12) columns in my data, the best "activation" is "relu", so I use it
