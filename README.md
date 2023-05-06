@@ -17,3 +17,4 @@
 # Then I check "value number" of my "df_test_under" """df_test_under.Exited.value_counts()"""
 # I prepare "X" as data without "Exited" column """df.drop('Exited', axis='columns')""" and "y" as "Exited" """y = df['Exited']"""
 # And get "train" and "test" set using "train_test_split" and I check their "shape" "X_train.shape" "X_test.shape"
+# Now I can create and supplement my model, so I import "tensorflow", "keras" and create "keras.Sequential"
