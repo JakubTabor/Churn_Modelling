@@ -19,3 +19,4 @@
 # And get "train" and "test" set using "train_test_split" and I check their "shape" "X_train.shape" "X_test.shape"
 # Now I can create and supplement my model, so I import "tensorflow", "keras" and create "keras.Sequential"
 # First "layers" have (26) neurons and "input_shape=(12,)" because i have (12) columns in my data, the best "activation" is "relu", so I use it
+# """keras.layers.Dense(26, input_shape=(12,), activation='relu')""" I also drop half of my neurons after every run, to deel with overfit
