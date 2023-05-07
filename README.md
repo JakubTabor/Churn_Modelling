@@ -27,3 +27,4 @@
 # I "evaluate" my model and get pretty good score """model.evaluate(X_test, y_test)"""
 # Now I get "y_pred" and reshape "predictions" into one dimension array """y_pred = model.predict(X_test).reshape(-1)"""
 # I also "round" my score """np.round(y_pred)""" and I check compatibility of my predictions
+# Finally I get "classification report" and check parameters "f1-score" is the most import, it seems that my data is imbalanced
