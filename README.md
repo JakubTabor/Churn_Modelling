@@ -25,3 +25,4 @@
 # Then I gonna "compile" my "model" with the best "optimizer" "adam", I have "binary" output, so I use as loss "binary_crossentropy"
 # And my "metrics" will be "accuracy", Then i train my "model", set numbers of "epochs" at (50) and my "batch gradient descent" at (8)
 # I "evaluate" my model and get pretty good score """model.evaluate(X_test, y_test)"""
+# Now I get "y_pred" and reshape "predictions" into one dimension array """y_pred = model.predict(X_test).reshape(-1)"""
