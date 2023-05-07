@@ -23,3 +23,4 @@
 # My hidden layer have (15) neurons and also "activation "relu" I use "Dropout" to drop neurons """keras.layers.Dropout(0.5)"""
 # And the last must have (1) output neuron and in that case the best "activation" is "sigmoid" """keras.layers.Dense(1, activation='sigmoid')"""
 # Then I gonna "compile" my "model" with the best "optimizer" "adam", I have "binary" output, so I use as loss "binary_crossentropy"
+# And my "metrics" will be "accuracy", Then i train my "model", set numbers of "epochs" at (50) and my "batch gradient descent" at (8)
